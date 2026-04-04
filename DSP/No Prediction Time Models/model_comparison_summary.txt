@@ -1,0 +1,14 @@
+================================================================================
+  MODEL COMPARISON SUMMARY  (No ExpectedDurationMins)
+================================================================================
+Model                             MAE     RMSE       R²       CV MAE (5-fold)
+--------------------------------------------------------------------------------
+Human Estimate                  39.25    57.26   0.4785                   N/A
+Linear Regression               47.90    68.33   0.2506          48.57 ± 0.75
+Random Forest                   30.78    48.80   0.6177          31.22 ± 0.59
+Gradient Boosting (XGBoost)     29.31    45.30   0.6706          30.15 ± 0.47
+Neural Network (MLP)            35.94    59.57   0.4304          36.62 ± 1.04
+================================================================================
+
+  Best model by MAE: Gradient Boosting (XGBoost)  (MAE = 29.31)
+  9.94 mins better than human estimate (25.3% improvement)
