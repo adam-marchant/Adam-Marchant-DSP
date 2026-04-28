@@ -1,4 +1,4 @@
-# DSP Project — Surgical Duration Prediction
+# Adam Marchant DSP Project
 
 Predicting the actual duration of surgical operations at Southmead Hospital using machine learning, benchmarked against the existing human estimate (`ExpectedDurationMins`).
 
